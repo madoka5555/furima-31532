@@ -1,4 +1,4 @@
-function calculation () {
+unction calculation () {
   const itemPrice = document.getElementById("item-price");
   const calcAddTaxPrice = document.getElementById("add-tax-price");
   const calcProfit = document.getElementById("profit");

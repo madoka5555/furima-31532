@@ -47,8 +47,8 @@ class ItemsController < ApplicationController
 
   def　item_user_id
     return if @item.user_id == current_user.id
-
     redirect_to root_path
     end
-  end  
+  end
+
 end
